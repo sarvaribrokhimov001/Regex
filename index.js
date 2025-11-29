@@ -1,3 +1,34 @@
+Toastify({
+      text: "Dasturimizga xush kelibsiz ! ",
+      duration: 3500,
+      destination: "https://github.com/apvarun/toastify-js",
+      newWindow: true,
+      close: true,
+      gravity: "top", // `top` or `bottom`
+      position: "center", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background: "linear-gradient(to right, green, greenyellow)",
+      },
+     onClick: function(){} // Callback after click
+    }).showToast();
+      
+Toastify({
+      text: "Assalomu alaykum ",
+      duration: 3500,
+      destination: "https://github.com/apvarun/toastify-js",
+      newWindow: true,
+      close: true,
+      gravity: "top", // `top` or `bottom`
+      position: "center", // `left`, `center` or `right`
+      stopOnFocus: true, // Prevents dismissing of toast on hover
+      style: {
+        background: "linear-gradient(to right, green, greenyellow)",
+      },
+     onClick: function(){} // Callback after click
+    }).showToast();
+
+    
 const elForm = document.querySelector(".form");
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const passwordRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+{}\[\]:;"'<>.,?/~]).{8,}$/;
