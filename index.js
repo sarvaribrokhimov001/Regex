@@ -97,7 +97,7 @@ elForm.addEventListener("submit", (e)=> {
     if(!usernameRegex.test(username)) {
       return Toastify({
         text: "Username 5-15 harf va raqamdan iborat bo'lishi kerak ! ",
-        duration: 2000,
+        duration: 3000,
         destination: "https://github.com/apvarun/toastify-js",
         newWindow: true,
         close: true,
@@ -131,4 +131,8 @@ elForm.addEventListener("submit", (e)=> {
       },
      onClick: function(){} // Callback after click
     }).showToast();
+
+     setTimeout(() => {
+      window.location.href = "https://www.w3schools.com/js/js_regexp.asp"; 
+   }, 2000);
 });      
